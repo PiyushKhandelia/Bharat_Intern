@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bharat Intern Internship Projects</title>
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: "Poppins", sans-serif;
+            }   
+
+            /* Center everything */
+            body, html {
+                height: 100%;
+                margin: 0;
+                display: flex;
+                justify-content: center; /* Center content horizontally */
+                align-items: center; /* Center content vertically */
+            }
+            
+            /* Container */
+            .container {
+                margin-top: 25px;
+                height: 700px;
+                width: calc(100%-250px);
+                background-color: white;
+                box-shadow: 8px 8px 20px rgb(128, 128, 128);
+                position: relative;
+                overflow: hidden;
+                padding: 25px;
+                border-radius: 10px;
+            }
+
+            /* Admin Box */
+            .admin-box {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr); /* 3 columns */
+                grid-template-rows: repeat(2, auto); /* 3 rows */
+                gap: 20px;
+                justify-content: center; /* Center horizontally */
+                align-items: center; /* Center vertically */
+                width: 100%;
+                max-width: 1250px;
+                padding: 20px;
+            }
+
+            /* Heading styling */
+            .heading {
+                text-align: center;
+                font: small-caps bold 50px/80px Georgia, serif;
+            }
+
+            /* Iframe styling */
+            lottie-player, dotlottie-player {
+                width: calc(100% - 10px); /* One-third of the screen width minus gap */
+                height: 500px;
+                border: 1px solid #ccc;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                background-color: #f9f9f9;
+            }
+
+            /* Label styling */
+            .label {
+                font-weight: bold;
+                text-align: center;
+                font: small-caps bold 30px/45px Georgia, serif;
+                margin-top: 10px; /* Add some space between lottie-player and label */
+            }
+
+            /* Style <a> tag as none */
+            a {
+                text-decoration: none; /* Remove underline */
+                color: inherit; /* Inherit text color */
+                cursor: pointer; /* Change cursor to pointer */
+            }
+
+            sup {
+                color: #ff4d4d;
+                font-size: x-large;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- container div -->
+        <div class="container">
+            <p class="heading">Bharat Intern Internship Projects</p>
+            <div class="admin-box">
+                <!-- Lottie player buttons -->
+                <a href="https://piyushkhandelia.github.io/Bharat_Intern/Money_Tracker/money_tracker.html">
+                    <dotlottie-player src="https://lottie.host/e348c055-1476-4eb6-af36-cd5fd93aea9e/gbgUH04tRN.json" background="transparent" speed="1" loop autoplay></dotlottie-player>
+                    <p class="label">Registration Form</p>
+                </a>
+                <a href="https://piyushkhandelia.github.io/Bharat_Intern/Registration_Form/registration_form.html">
+                    <dotlottie-player src="https://lottie.host/ae25ff7c-2c81-4783-95c2-2377df770821/74EbeNgvV4.json" background="transparent" speed="1" loop autoplay></dotlottie-player>
+                    <p class="label">Expense Tracker</p>
+                </a>
+            </div>
+        </div>
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+    </body>
+</html>
